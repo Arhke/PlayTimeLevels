@@ -1,0 +1,7 @@
+name: PlayTimeLevels
+desc: PlayTimeLevels by Arhke
+main: net.waterraid.PlayTimeLevels.Main
+version: 1.0
+commands:
+  playtime:
+    usage: /<command>
