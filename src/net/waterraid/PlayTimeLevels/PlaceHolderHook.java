@@ -75,7 +75,7 @@ public class PlaceHolderHook extends PlaceholderExpansion {
             return "";
         }
         if (identifier.equalsIgnoreCase("LEVEL")) {
-            return ChatColor.LIGHT_PURPLE+""+PlayTimeManager.getLevel(player.getUniqueId());
+            return ""+PlayTimeManager.getLevel(player.getUniqueId());
         }
         return null;
     }

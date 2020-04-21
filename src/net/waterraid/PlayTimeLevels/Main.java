@@ -17,7 +17,7 @@ public class Main extends JavaPlugin {
         _instance = this;
         saveResource("config.yml", false);
         saveResource("data.yml", false);
-        getCommand("playtime").setExecutor(new Command());
+        getCommand("level").setExecutor(new Command());
         if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
             new PlaceHolderHook(this).register();
         }

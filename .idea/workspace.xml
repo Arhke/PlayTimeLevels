@@ -28,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/mc/1.12.2/plugins" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -44,14 +44,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587452150490" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1587452152513">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1587510062202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587452152513" />
-    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1587456504786">
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587510062202" />
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1587512519880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587456504786" />
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587512519880" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587235384776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

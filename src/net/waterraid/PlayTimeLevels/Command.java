@@ -34,19 +34,19 @@ public class Command implements CommandExecutor {
             return true;
         }
         if (args.length == 0) {
-            commandSender.sendMessage(ChatColor.AQUA+"/playtime xp add/subtract <amount> <playername>\n/playtime level add/subtract <amount> <playername>");
+            commandSender.sendMessage(ChatColor.AQUA+"/level xp add/subtract <amount> <playername>\n/level level add/subtract <amount> <playername>");
         }
         else if (args.length < 4) {
             if (args[0].equalsIgnoreCase("xp")) {
-                commandSender.sendMessage(ChatColor.RED+"Usage: /playtime xp add/subtract <amount> <playername>");
+                commandSender.sendMessage(ChatColor.RED+"Usage: /level xp add/subtract <amount> <playername>");
             }else if (args[0].equalsIgnoreCase("level")) {
-                commandSender.sendMessage(ChatColor.RED+"Usage: /playtime level add/subtract <amount> <playername>");
+                commandSender.sendMessage(ChatColor.RED+"Usage: /level level add/subtract <amount> <playername>");
             }
         }
         else if (args.length == 4) {
             if (!isNumber(args[2])) {
                 commandSender.sendMessage(ChatColor.RED + args[2]+" is not a number please input a number");
-                commandSender.sendMessage(ChatColor.AQUA+"/playtime xp add/subtract <amount> <playername>\n/playtime level add/subtract <amount> <playername>");
+                commandSender.sendMessage(ChatColor.AQUA+"/level xp add/subtract <amount> <playername>\n/level level add/subtract <amount> <playername>");
                 return true;
             }
             Player player = Bukkit.getPlayer(args[3]);
@@ -68,7 +68,7 @@ public class Command implements CommandExecutor {
             }
         }
         else {
-            commandSender.sendMessage(ChatColor.AQUA+"/playtime xp add/subtract <amount> <playername>\n/playtime level add/subtract <amount> <playername>");
+            commandSender.sendMessage(ChatColor.AQUA+"/level xp add/subtract <amount> <playername>\n/level level add/subtract <amount> <playername>");
         }
         return true;
     }
